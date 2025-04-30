@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Roman Numeral Converter</title>
+  </head>
+  <body>
+    <main>
+      <article>
+        <header>
+          <figure>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#f5b06c"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-book-open-icon lucide-book-open"
+            >
+              <path d="M12 7v14" />
+              <path
+                d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"
+              />
+            </svg>
+          </figure>
+          <h1>Roman Numeral Converter</h1>
+        </header>
+        <div class="container">
+          <h2>Número decimal</h2>
+          <input class="number-input" id="number" placeholder="Ej: 2024" />
+          <span>Por favor, ingresa un número válido</span>
+          <span>Por favor, ingresa un número mayor o igual a 1</span>
+          <span>Por favor, ingresa un número menor o igual a 3999</span>
+          <button id="convert-btn">Convert</button>
+          <div>
+            <p>El resultado se mostrara aquí</p>
+            <span id="output"></span>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <p>Convierte números decimales a numeración romana (1-3999)</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

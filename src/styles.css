@@ -1,0 +1,65 @@
+:root {
+  /* Colors */
+  --background-color: #ebfaeb;
+  --button-color: #f5b06c;
+  --background-container: #fff;
+  --color-failed-input: #f00;
+  --color-result: #73c771;
+  --background-color-result: #666;
+
+  /* fonts sizes */
+  --root-font-size: 16px;
+  --font-weight: 550;
+  font-size: var(--root-font-size);
+
+  /* font families */
+  --font-title: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana;
+  --font-family: "Lato", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: var(--font-family);
+}
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  margin: 12rem 0 0 0;
+}
+header figure {
+  margin-right: 10px;
+}
+svg {
+  margin-top: 7px;
+}
+
+h1 {
+  font-family: var(--font-title);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 30rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  background-color: var(--background-container);
+}
+.container h2 {
+  font-size: small;
+  color: #665;
+}
+
+.number-input {
+}
