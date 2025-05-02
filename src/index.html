@@ -33,14 +33,25 @@
         </header>
         <div class="container">
           <h2>Número decimal</h2>
-          <input class="number-input" id="number" placeholder="Ej: 2024" />
-          <span>Por favor, ingresa un número válido</span>
-          <span>Por favor, ingresa un número mayor o igual a 1</span>
-          <span>Por favor, ingresa un número menor o igual a 3999</span>
+          <input
+            type="number"
+            class="number-input"
+            id="number"
+            placeholder="Ej: 2024"
+          />
+          <span class="Hidden" id="error-input"
+            >Por favor, ingresa un número válido</span
+          >
+          <span class="Hidden" id="error-number"
+            >Por favor, ingresa un número mayor o igual a 1</span
+          >
+          <span class="Hidden" id="number-max"
+            >Por favor, ingresa un número menor o igual a 3999</span
+          >
           <button id="convert-btn">Convert</button>
           <div>
-            <p>El resultado se mostrara aquí</p>
-            <span id="output"></span>
+            <p class="text-output-container">El resultado se mostrara aquí</p>
+            <div class="output" id="output"></div>
           </div>
         </div>
       </article>

@@ -62,4 +62,58 @@ h1 {
 }
 
 .number-input {
+  padding: 8px;
+  border-radius: 0.5rem;
+  margin: 4px 0;
+  font-size: medium;
+}
+
+.container span {
+  margin: 10px 0;
+  color: red;
+}
+
+.Hidden {
+  display: none;
+}
+
+.container button {
+  margin-top: 10px;
+  background-color: var(--button-color);
+  border: 0 solid;
+  width: auto;
+  height: 2rem;
+  border-radius: 0.5rem;
+  font-size: medium;
+  transition: 1s ease;
+}
+
+button:hover {
+  background-color: rgb(180, 180, 180);
+  cursor: pointer;
+}
+
+.text-output-container {
+  font-size: smaller;
+}
+.output {
+  height: 6rem;
+  background-color: #d4d4d4;
+  border-radius: 0.5rem;
+  padding: 0.5px;
+}
+.output p {
+  font-size: 1rem;
+  text-align: center;
+}
+.output p.numbers {
+  color: rgb(42, 82, 55);
+}
+.output p.converter {
+  color: rgb(0, 0, 80);
+}
+
+footer p {
+  margin: 10px auto;
+  max-width: fit-content;
 }
